@@ -19,7 +19,7 @@ Zen C is not just a wrapper; it is a full language toolchain that compiles down 
 * **Modern Ergonomics:** First-class support for Type Inference (`let`), Pattern Matching (`match`), Traits (`impl`), and Operator Overloading.
 * **Native Interoperability:** Zero-cost bindings to C. Seamlessly compile to C++ to use `<vector>` or OpenCV, write CUDA GPU kernels directly in Zen C syntax, or use Objective-C linkage for macOS apps.
 * **Pragmatic Memory Safety:** Manual memory management made safe with `defer`, `autofree`, and strict **Move Semantics** by default. No heavy runtime, no garbage collector.
-* **Universal Binaries:** Native support for compiling to **APE** (Actually Portable Executable)—build once, run anywhere.
+* **Universal Binaries:** Native support for compiling to **APE** (Actually Portable Executable)-build once, run anywhere.
 
 ```zc
 import "std/vec.zc"
@@ -54,6 +54,7 @@ Zen C is a growing ecosystem. Navigate our core repositories here:
 | **[docs](https://github.com/zenc-lang/docs)** | The official documentation and language specification. | Active |
 | **[rfcs](https://github.com/zenc-lang/rfcs)** | The Request for Comments (RFC) repository. Shape the future of the language. | Active |
 | **[vscode-zenc](https://github.com/zenc-lang/vscode-zenc)** | Official VS Code extension (Syntax Highlighting, Snippets). | Alpha |
+| **[zenc.vim](https://github.com/zenc-lang/zenc.vim)** | Official Vim/Neovim plugin. | Alpha |
 | **[www](https://github.com/zenc-lang/www)** | Source code for `zenc-lang.org`. | Active |
 | **[awesome-zenc](https://github.com/zenc-lang/awesome-zenc)** | A curated list of awesome Zen C examples | Growing |
 
